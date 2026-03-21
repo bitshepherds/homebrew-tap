@@ -2,8 +2,8 @@
 cask "jsm" do
   name "jsm"
   desc "JSON Schema Manager (jsm) - Registry-first tool for managing and validating JSON schemas."
-  homepage "https://github.com/andyballingall/json-schema-manager"
-  version "1.1.2"
+  homepage "https://github.com/bitshepherds/json-schema-manager"
+  version "1.2.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,23 +13,23 @@ cask "jsm" do
 
   on_macos do
     on_intel do
-      url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_darwin_amd64.tar.gz"
-      sha256 "58337460c0481d949119401204f355b076b02a162effdabff0e9c448aa361eb8"
+      url "https://github.com/bitshepherds/json-schema-manager/releases/download/v#{version}/jsm_darwin_amd64.tar.gz"
+      sha256 "8eda9b2be183ffe421cf5beceb98872836b5c4e7371e5cb4f4bf64de9231eba7"
     end
     on_arm do
-      url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_darwin_arm64.tar.gz"
-      sha256 "ad6f617f080df2813551863585f708786503662339f69de19042c0dac9314f5b"
+      url "https://github.com/bitshepherds/json-schema-manager/releases/download/v#{version}/jsm_darwin_arm64.tar.gz"
+      sha256 "a7d23067d04b252da55f69b40bf13c6732b1e48af784d6c4b4b1e5bf8766c6d4"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_linux_amd64.tar.gz"
-      sha256 "b320e80ba388755c51c8ca534284d162690ea41d1cb1a0fe559a0c34b8aca5b1"
+      url "https://github.com/bitshepherds/json-schema-manager/releases/download/v#{version}/jsm_linux_amd64.tar.gz"
+      sha256 "372b0873f960f9e8a39fe917306f2a8991adfd21182d395db6d516c4066a750f"
     end
     on_arm do
-      url "https://github.com/andyballingall/json-schema-manager/releases/download/v#{version}/jsm_linux_arm64.tar.gz"
-      sha256 "0504e0b9f6ad458fe591ae5dd26a52e6803ef9c4f7ffe3eb3e4c114f5aebcba0"
+      url "https://github.com/bitshepherds/json-schema-manager/releases/download/v#{version}/jsm_linux_arm64.tar.gz"
+      sha256 "5157a3beb89a3183af92678cca3207089fec724d97cb894bcf94da6c3cf973f0"
     end
   end
 
