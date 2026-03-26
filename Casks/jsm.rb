@@ -3,7 +3,7 @@ cask "jsm" do
   name "jsm"
   desc "JSON Schema Manager (jsm) - Registry-first tool for managing and validating JSON schemas."
   homepage "https://github.com/bitshepherds/json-schema-manager"
-  version "1.2.2"
+  version "1.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "jsm" do
   on_macos do
     on_intel do
       url "https://github.com/bitshepherds/json-schema-manager/releases/download/v#{version}/jsm_darwin_amd64.tar.gz"
-      sha256 "8eda9b2be183ffe421cf5beceb98872836b5c4e7371e5cb4f4bf64de9231eba7"
+      sha256 "b4c5ffde75d5d5e5d6a638426b8bd1128494ce8eaf67151fbd1eebfe149fd83a"
     end
     on_arm do
       url "https://github.com/bitshepherds/json-schema-manager/releases/download/v#{version}/jsm_darwin_arm64.tar.gz"
-      sha256 "a7d23067d04b252da55f69b40bf13c6732b1e48af784d6c4b4b1e5bf8766c6d4"
+      sha256 "b9f13c02b52e758d1bd48cc9f2f7a469ab3b91bf063961e22ad836aee730a8aa"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/bitshepherds/json-schema-manager/releases/download/v#{version}/jsm_linux_amd64.tar.gz"
-      sha256 "372b0873f960f9e8a39fe917306f2a8991adfd21182d395db6d516c4066a750f"
+      sha256 "5b61a42892a214c85e8aff253ea832aec7e82c8b70215d300d0fb882a922ecc8"
     end
     on_arm do
       url "https://github.com/bitshepherds/json-schema-manager/releases/download/v#{version}/jsm_linux_arm64.tar.gz"
-      sha256 "5157a3beb89a3183af92678cca3207089fec724d97cb894bcf94da6c3cf973f0"
+      sha256 "a2bac6734a518975e280aeff64628ea80d2902cf10d71a1bb5df1302062a39cd"
     end
   end
 
